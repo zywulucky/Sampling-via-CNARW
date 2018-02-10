@@ -1,0 +1,27 @@
+MyRW: MyRW.o TraceAnalysis.o ConvergenceDiagnostic.o DistributionNormal.o GelmanRubinTest.o GewekeTest.o SFMT.o
+	g++ -o MyRW SFMT.o MyRW_H=1.o TraceAnalysis.o ConvergenceDiagnostic.o DistributionNormal.o GelmanRubinTest.o GewekeTest.o
+	
+MyRW.o: sfmt/SFMT.h fileProcess.h ComputeBurnin_tmp.h 
+	g++ -O2 -c -DRW=\"${RW}\" -DH_STR=\"${H}\" -DH_INT=${H} -DP=\"${P}\" MyRW_H=1.cpp
+#	g++ -O2 -c -DH_INT=2 MyRW_H=1.cpp
+
+TraceAnalysis.o: Convergence/TraceAnalysis.h Convergence/RbConstants.h
+	g++ -c -O2 Convergence/TraceAnalysis.cpp
+
+ConvergenceDiagnostic.o: Convergence/ConvergenceDiagnostic.h Convergence/TraceAnalysis.h
+	g++ -O2 -c Convergence/ConvergenceDiagnostic.cpp
+
+DistributionNormal.o: Convergence/DistributionNormal.h
+	g++ -c Convergence/DistributionNormal.cpp
+
+GelmanRubinTest.o: Convergence/GelmanRubinTest.h Convergence/DistributionNormal.h Convergence/ConvergenceDiagnostic.h
+	g++ -c Convergence/GelmanRubinTest.cpp
+
+GewekeTest.o: Convergence/GewekeTest.h Convergence/DistributionNormal.h Convergence/ConvergenceDiagnostic.h
+	g++ -c -O2 Convergence/GewekeTest.cpp
+
+SFMT.o: sfmt/SFMT.h
+	gcc -c sfmt/SFMT.c
+
+clean:
+	-rm *.o
