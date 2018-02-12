@@ -65,7 +65,23 @@ Product_A.txt: Denote the users in Flickr whether are interest in product A　or
 
 Second Step:
 
-1. How to compute the average "convergence to mean" by running SRW for 300 times ?
+1. How to compute the average "convergence to mean" by running SRW for 300 times (use Flickr as an example)?
+
+     I. Create a folder, namely "Experiment", then continue creating a folder, namely "RW" in "Experiment".
+     
+     II. Change the name of RW_converge_Deg.cp to RW.cpp. and keep it and the folder "Experiment" in the same directory.
+     
+     III. Open tmp.sh. In particular, 
+        
+            GRAPH=DBLP -> GRAPH=Flickr
+                                    
+            make -f Makefile_$RW_T RW=${RW_T}/H\=${i} P=${GRAPH} H=${i}
+            #make -f Makefile_$RW_T RW=${RW_T} P=${GRAPH} H=${i}
+          ->
+            #make -f Makefile_$RW_T RW=${RW_T}/H\=${i} P=${GRAPH} H=${i}
+            make -f Makefile_$RW_T RW=${RW_T} P=${GRAPH} H=${i}
+            
+      IIII. Run ./tmp.sh
 
 2. After knowing the convergence rate of SRW and giveing a extra query cost, How to estimate the average degree of Flickr and recorder the relative error ?
 
