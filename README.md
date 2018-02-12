@@ -89,7 +89,7 @@ Second Step:
             
       IV. Run ./tmp.sh
       
-      V. Move CmptMxTm.py to the folder "Experiment" and run the following command in terminal:
+      V. Move CmptMxTm.py to the folder "Experiment" and run the following command in linux terminal:
       
                ./CmptMxTm.py RW 1 1 Flickr 300 .
            
@@ -98,7 +98,21 @@ Second Step:
       Note that, if you want to run CNARW on Flickr, just run tmp.sh directly.
        
 
-2. After knowing the convergence rate of SRW and giveing a extra query cost, How to estimate the average degree of Flickr and recorder the relative error ?
+2. After knowing the convergence rate of SRW and giveing a extra budget of query cost, How to estimate the average degree of Flickr in 300 times and recorder the relative error ?
 
+     I. Change the name of RW_RelativeError_Deg.cp to RW.cpp.
 
-       
+     II. Do the following changes:
+     
+               int burnin = 30000; -> int burnin = the convergence rate you got in question 1.
+               
+               while(flag_cout <= qc+650)  -> change 650 to the extra budget of query cost you have.
+               
+               double rr = abs(estimator - 44.45033) / 44.45033; -> change 44.45033 to the average degree of Flickr
+               
+     III. Save above changes, then open tmp.sh, make corresponding changes, this step is similar to step III of question 1.
+     
+     IV.  after run ./tmp.sh, one can see a file name "qc.txt" is created. this file recorder the experimental results of 300 times. In this time, one can get the average result by using the following command:
+     　　　　　　python jsqc.py RW
+           
+         
