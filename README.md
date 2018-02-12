@@ -63,6 +63,9 @@ CmptMxTm.py: Statistical experimental results. this scripts help one to get the 
 
 Product_A.txt: Denote the users in Flickr whether are interest in product A　or not. Product_B.txt and Product_C are similar to Product_A.txt.
 
+
+
+
 Second Step:
 
 1. How to compute the average "convergence to mean" by running SRW for 300 times (use Flickr as an example)?
@@ -74,7 +77,7 @@ Second Step:
      III. Open tmp.sh. In particular, 
         
               #!/bin/bash
-              RW_T=ORW
+              RW_T=RW
               GRAPH=Flickr
 
               for ((i=2; i<=2; ++i)); do
@@ -85,6 +88,9 @@ Second Step:
               done
             
       IIII. Run ./tmp.sh
+      
+      Note that, if you want to run CNARW on Flickr, just run tmp.sh directly.
+       
 
 2. After knowing the convergence rate of SRW and giveing a extra query cost, How to estimate the average degree of Flickr and recorder the relative error ?
 
