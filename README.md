@@ -35,5 +35,5 @@ RW_version: This folder contains five files which related to the algorithm SRW. 
 
 Convergence: This folder implements the Geweke diagnostic.
 
-sfmt: This file is used to generate random numbers.
+sfmt: This folder is used to generate random numbers.
        
