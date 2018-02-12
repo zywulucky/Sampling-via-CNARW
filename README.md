@@ -47,5 +47,20 @@ comptAvgSimlar.cpp: Compute the average node pair similarity of corresponding gr
 
 generateAge.cpp: Generate the age of each user according to the specified distribution. Note that, readers need to manually set distribution.
 
-generateInterest.cpp: Compute the proportion of users of different age groups of the same product
+generateInterest.cpp: Compute the proportion of users of different age groups of the same product, which is used as the background truth.
+
+datasets.txt: Contain the links to download datasets we used in experiment.
+
+logspace.txt: This is needed when compute the "convergence to mean".
+
+test3.py: Control the execution of different algorithms.
+
+tmp.sh: Control the execution of test3.py.
+
+jspc.py: Statistical experimental results. this scripts help one to get the average relative error.
+
+CmptMxTm.py: Statistical experimental results. this scripts help one to get the average "convergence to mean".
+
+
+
        
