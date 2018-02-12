@@ -29,7 +29,7 @@ NBRW_version: this folder contains five files related to the algorithm NBRW, the
         
      NBRW_RelativeError_PairSimilarity.cpp:　Given a budget of query cost, estimate the average node pair similarity of corresponding graph. And output relative error.
    
- ORW_version: this folder contains five files related to our algorithm CNARW. The function of these five files is similar to files in NBRW_version.
+ ORW_version: this folder contains five files which related to our algorithm CNARW. The function of these five files is similar to files in NBRW_version.
 
- RW_version: This folder contains five files related to the algorithm SRW. The functioin of these five files is similar to files in RW_version.
+ RW_version: This folder contains five files which related to the algorithm SRW. The functioin of these five files is similar to files in RW_version.
        
