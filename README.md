@@ -44,4 +44,8 @@ ComputeBurnin_tmp.h: Compute the "covergence to mean" and write the result in sp
 fileProcess.h: Taking the graph dataset as input, and storage them in data structue.
 
 comptAvgSimlar.cpp: Compute the average node pair similarity of corresponding graph, and output the result, which is used as the background truth.
+
+generateAge.cpp: Generate the age of each user according to the specified distribution. Note that, readers need to manually set distribution.
+
+generateInterest.cpp: Compute the proportion of users of different age groups of the same product
        
