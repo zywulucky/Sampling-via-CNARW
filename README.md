@@ -20,6 +20,8 @@ CNRW_version:　this folder contains four files related to the algorithm CNRW, t
 NBRW_version: this folder contains five files related to the algorithm NBRW, they are,
         
      NBRW_RelativeError_Age.cpp: The function is similar to CNRW_RelativeError_Age.cpp.
+     
+     NBRW_converge_PairSimilarity.cpp: The funciton is similar to CNRW_converge_PairSimilarity.cpp
         
      NBRW_RelativeError_Degree.cpp：The function is similar to CNRW_RelativeError_Degree.cpp.
    
