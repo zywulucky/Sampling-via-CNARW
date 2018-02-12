@@ -114,6 +114,6 @@ Second Step:
      
      IV.  after run ./tmp.sh, one can see a file name "qc.txt" is created. this file recorder the experimental results of 300 times. In this time, one can get the average result by using the following command:
      
-     　　　　　　python jsqc.py RW
+     　　　　　 　python jsqc.py RW
            
          
