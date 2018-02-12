@@ -112,8 +112,8 @@ Second Step:
                
      III. Save above changes, then open tmp.sh, make corresponding changes, this step is similar to step III of question 1.
      
-     IV.  after run ./tmp.sh, one can see a file name "qc.txt" is created. this file recorder the experimental results of 300 times. In this time, one can get the average result by using the following command:
+     IV.  after run ./tmp.sh, one can see a file name "qc.txt" is created. this file recorder the experimental results of 300 times. In this time, one can get the average result by using the following command:  python jsqc.py RW
      
-     　　　　　 　python jsqc.py RW
+For other functions, the experimental process is similar.
            
          
