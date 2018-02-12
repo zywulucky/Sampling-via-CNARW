@@ -36,4 +36,12 @@ RW_version: This folder contains five files which related to the algorithm SRW. 
 Convergence: This folder implements the Geweke diagnostic.
 
 sfmt: This folder is used to generate random numbers.
+
+RW.cpp, NBRW.cpp, CNRW.cpp and MyRW_H=1.cpp (implement of CNARW) is one file of RW_version, NBRW_version, CNRW_version and ORW_version respectively. The only difference is that the name is different. One can compile them by using Makefile_RW, Makefile_NBRW, Makefile_CNRW and Makefile_ORW respectively.
+
+ComputeBurnin_tmp.h: Compute the "covergence to mean" and write the result in specified path.
+
+fileProcess.h: Taking the graph dataset as input, and storage them in data structue.
+
+comptAvgSimlar.cpp: Compute the average node pair similarity of corresponding graph, and output the result, which is used as the background truth.
        
