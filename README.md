@@ -5,12 +5,11 @@ To let readers have a good understand about our codes, we now give a detail desc
 
 Note that, we implement all the related algorithms by using C++. We've also written some scripts that help us better control the execution of algorithms.
 
-The First step:
-  The role of related folders.
-    CNRW_version:　this folder contains four files related to the algorithm CNRW:　CNRW_RelativeError_Age.cpp, CNRW_RelativeError_Degree.cpp, CNRW_converge_Degree.cpp and CNRW_converge_PairSimilarity.cpp. In particular,
-       CNRW_RelativeError_Age.cpp:　Given a query cost budget, esimate the proportion of interest in a product at a given age. And output relative error.
-       CNRW_RelativeError_Degree.cpp：Given a query cost budget, esimate the average degree of the corresponding graph. And output relative error.
-       CNRW_converge_Degree.cpp:　get the convergence to mean of CNRW when using the node degree as indicator of convergence.
-       CNRW_converge_PairSimilarity.cpp: get the convergence to mean of CNBRW when using the node pair similarity as indicator of convergence. meanwhile, the node pair similarity is computed by utilizing Jaccard coefficient.
+First step:
+    CNRW_version:　this folder contains four files related to the algorithm CNRW, they are,
+       CNRW_RelativeError_Age.cpp:　Given a query cost budget, esimate the proportion of interesting in a product at a given age. And output relative error.
+       CNRW_RelativeError_Degree.cpp：Given a query cost budget, esimate the average degree of corresponding graph. And output relative error.
+       CNRW_converge_Degree.cpp:　Get "the convergence to mean" of CNRW when use node degree as the indicator of convergence.
+       CNRW_converge_PairSimilarity.cpp: Get the "convergence to mean" of CNBRW when use node pair similarity as the indicator of convergence. The node pair similarity is computed by utilizing Jaccard coefficient.
        
        
