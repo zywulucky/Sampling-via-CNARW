@@ -24,8 +24,6 @@ NBRW_version: this folder contains five files related to the algorithm NBRW, the
      NBRW_RelativeError_Degree.cpp：The function is similar to CNRW_RelativeError_Degree.cpp.
    
      NBRW_converge_Degree.cpp: The function is similar to CNRW_converge_Degree.cpp.
-     
-     NBRW_converge_PairSimilarity.cpp: The function is similar to CNRW_converge_PairSimilarity.cpp
         
      NBRW_RelativeError_PairSimilarity.cpp:　Given a budget of query cost, estimate the average node pair similarity of corresponding graph. And output relative error.
    
