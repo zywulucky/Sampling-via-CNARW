@@ -87,7 +87,13 @@ Second Step:
                    python3 test3.py $GRAPH $RW_T 1 300 
               done
             
-      IIII. Run ./tmp.sh
+      IV. Run ./tmp.sh
+      
+      V. Move CmptMxTm.py to the folder "Experiment" and run the following command in terminal:
+      
+               ./CmptMxTm.py RW 1 1 Flickr 300 .
+           
+      Then, the experimental result is written in "data.txt"
       
       Note that, if you want to run CNARW on Flickr, just run tmp.sh directly.
        
