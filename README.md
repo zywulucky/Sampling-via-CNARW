@@ -63,5 +63,11 @@ CmptMxTm.py: Statistical experimental results. this scripts help one to get the 
 
 Product_A.txt: Denote the users in Flickr whether are interest in product A　or not. Product_B.txt and Product_C are similar to Product_A.txt.
 
+Second Step:
+
+1. How to compute the average "convergence to mean" by running SRW for 300 times ?
+
+2. After knowing the convergence rate of SRW and giveing a extra query cost, How to estimate the average degree of Flickr and recorder the relative error ?
+
 
        
