@@ -17,7 +17,7 @@ CNRW_version:　this folder contains four files related to the algorithm CNRW, t
        
    CNRW_converge_PairSimilarity.cpp: Get the "convergence to mean" of CNBRW when use node pair similarity as the indicator of convergence. The node pair similarity is computed by utilizing Jaccard coefficient.
    
-NBRW_version: this folder contains five related to the algorithm NBRW, they are,
+NBRW_version: this folder contains five files related to the algorithm NBRW, they are,
         
    NBRW_RelativeError_Age.cpp: The function is similar to CNRW_RelativeError_Age.cpp.
         
@@ -28,4 +28,8 @@ NBRW_version: this folder contains five related to the algorithm NBRW, they are,
    NBRW_converge_PairSimilarity.cpp: The function is similar to CNRW_converge_PairSimilarity.cpp
         
    NBRW_RelativeError_PairSimilarity.cpp:　Given a budget of query cost, estimate the average node pair similarity of corresponding graph. And output relative error.
+   
+ORW_version: this folder contains five files related to our algorithm CNARW. The function of these five files is similar to files in NBRW_version.
+
+RW_version: This folder contains five files related to the algorithm SRW. The functioin of these five files is similar to files in RW_version.
        
