@@ -61,6 +61,7 @@ jspc.py: Statistical experimental results. this scripts help one to get the aver
 
 CmptMxTm.py: Statistical experimental results. this scripts help one to get the average "convergence to mean".
 
+Product_A.txt: Denote the users in Flickr whether are interest in product A　or not. Product_B.txt and Product_C are similar to Product_A.txt.
 
 
        
