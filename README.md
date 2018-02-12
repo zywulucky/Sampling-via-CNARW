@@ -9,11 +9,11 @@ First step:
 
     CNRW_version:　this folder contains four files related to the algorithm CNRW, they are,
     
-       CNRW_RelativeError_Age.cpp:　Given a query cost budget, esimate the proportion of interesting in a product at a given age. And output relative error.
+       CNRW_RelativeError_Age.cpp: Given a query cost budget, esimate the proportion of interesting in a product at a given age. And output relative error.
        
-       CNRW_RelativeError_Degree.cpp：Given a query cost budget, esimate the average degree of corresponding graph. And output relative error.
+       CNRW_RelativeError_Degree.cpp: Given a query cost budget, esimate the average degree of corresponding graph. And output relative error.
        
-       CNRW_converge_Degree.cpp:　Get "the convergence to mean" of CNRW when use node degree as the indicator of convergence.
+       CNRW_converge_Degree.cpp: Get "the convergence to mean" of CNRW when use node degree as the indicator of convergence.
        
        CNRW_converge_PairSimilarity.cpp: Get the "convergence to mean" of CNBRW when use node pair similarity as the indicator of convergence. The node pair similarity is computed by utilizing Jaccard coefficient.
        
