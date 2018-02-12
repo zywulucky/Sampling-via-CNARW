@@ -24,6 +24,7 @@ First step:
     NBRW_RelativeError_Degree.cpp：The function is similar to CNRW_RelativeError_Degree.cpp.
         
     NBRW_converge_Degree.cpp: The funciton is similar to CNRW_converge_Degree.cpp.
+    
         
     NBRW_converge_PairSimilarity.cpp: The function is similar to CNRW_converge_PairSimilarity.cpp
         
