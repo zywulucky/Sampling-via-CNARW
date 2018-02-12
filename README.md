@@ -22,8 +22,6 @@ NBRW_version: this folder contains five related to the algorithm NBRW, they are,
    NBRW_RelativeError_Age.cpp: The function is similar to CNRW_RelativeError_Age.cpp.
         
    NBRW_RelativeError_Degree.cpp：The function is similar to CNRW_RelativeError_Degree.cpp.
-        
-   NBRW_converge_Degree.cpp: The funciton is similar to CNRW_converge_Degree.cpp.
    
    NBRW_converge_Degree.cpp: The function is similar to CNRW_converge_Degree.cpp.
    
