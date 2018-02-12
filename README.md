@@ -29,7 +29,11 @@ NBRW_converge_Degree.cpp: The function is similar to CNRW_converge_Degree.cpp.
         
 NBRW_RelativeError_PairSimilarity.cpp:　Given a budget of query cost, estimate the average node pair similarity of corresponding graph. And output relative error.
    
-ORW_version: this folder contains five files which related to our algorithm CNARW. The function of these five files is similar to files in NBRW_version.
+ORW_version: This folder contains five files which related to our algorithm CNARW. The function of these five files is similar to files in NBRW_version.
 
 RW_version: This folder contains five files which related to the algorithm SRW. The functioin of these five files is similar to files in RW_version.
+
+Convergence: This folder implements the Geweke diagnostic.
+
+sfmt: This file is used to generate random numbers.
        
