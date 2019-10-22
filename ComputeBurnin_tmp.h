@@ -44,3 +44,4 @@ int computeBurnin(vector<double>& value, string ID)
 
 	return 500;
 }
+#endif
